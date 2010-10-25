@@ -1,0 +1,46 @@
+#page {
+  width: 600px;
+  margin: 0 auto;
+  background-image: url('gfx/page.png');
+}
+#content {
+  background-image: url('gfx/content.png');
+}
+h2 {
+  background-image: url('gfx/h2.png');
+  height: 120px;
+  text-indent: -5000px;
+  margin-top: 60px;
+}
+ul {
+  background-image: url('gfx/ul.png');
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  margin-bottom: 120px;
+  padding-bottom: 60px;
+}
+li + li {
+  background-image: url('gfx/li-coins.png');
+  background-repeat: no-repeat; 
+  padding-top: 180px;
+}
+li + li + li {
+  background-image: url('gfx/li.png');
+  background-repeat: no-repeat; 
+  padding-top: 180px;
+}
+
+h3,p { 
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+h3 {
+  font-size: 2em;
+  margin-bottom: .5em;
+}
+
+p {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
